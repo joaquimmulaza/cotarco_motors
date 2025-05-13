@@ -1,0 +1,129 @@
+﻿#container
+{
+	position:relative;
+	margin: auto;
+	top: 100px;
+
+	width:1050px;
+	height:500px;
+	border: solid 1px #FFF;
+}
+
+#leftContainer
+{
+	border: solid 1px #000;
+}
+
+#topLeftCorner
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#topCorner
+{
+	position:absolute;
+	top:0px;
+	left:400px;
+}
+
+#topBanner
+{
+	position:absolute;
+	top:0px;
+	left:300px;
+}
+
+#topRightCorner
+{
+	position:absolute;
+	top:0px;
+	left:800px;
+}
+
+#bottomLeftCorner
+{
+	position:absolute;
+	top:250px;
+	left:0px;
+}
+
+#bottomCorner
+{
+	position:absolute;
+	top:250px;
+	left:400px;
+}
+
+#bottomRightCorner
+{
+	position:absolute;
+	top:250px;
+	left:800px;
+}
+
+.div-header-container
+{
+	margin: auto;
+
+	width: 250px;
+	height: 200px;
+
+	border: solid 1px #000;
+}
+
+.div-banner-container
+{
+	margin: auto;
+
+	width: 450px;
+	height: 200px;
+
+	border: solid 1px #FFF;
+}
+
+.div-footer-container
+{
+	margin: auto;
+
+	width: 250px;
+	height: 250px;
+
+	border: solid 1px #000;
+}
+
+#leftImage
+{
+	position:absolute;
+	top:150px;
+	left:50px;
+
+ 	width: 300px;
+}
+
+#centerImage
+{
+	position:absolute;
+	top:150px;
+	left:450px;
+
+ 	width: 150px;
+}
+
+#rightImage
+{
+	position:absolute;
+	top:150px;
+	left:700px;
+
+ 	width: 300px;
+}
+
+.div-main-image
+{
+	padding: none;
+	height: 150px;
+	border: solid 2px #000;
+}
+

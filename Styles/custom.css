@@ -1,0 +1,61 @@
+﻿.img-main-image
+{
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+
+.img-thumb
+{
+	width: 100px;
+	border: none;
+}
+
+.img-thumb-rowspan
+{
+	height: 160px;
+	border: none;
+}
+
+.img-single-thumb
+{
+	width: 150px;
+	border: none;
+}
+
+.img-banner
+{
+	width: 450px;
+	margin-top: 0px;
+}
+
+.div-footer-thumb-grid
+{
+	margin: auto;
+	margin-top: 70px;
+}
+
+.div-header-thumb-grid
+{
+	margin: auto;
+	margin-top: 20px;
+}
+
+h3
+{
+	margin-top: 10px;
+	margin-left:10px;
+	margin-bottom: 0px;
+	
+	font-family: Calibri : Serif;
+	font-size:large;
+}
+
+p
+{
+	margin-top: 5px;
+	margin-left:10px;
+	
+	font-family: Calibri : Serif;
+	font-size: small;
+}

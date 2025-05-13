@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotarco Tecnologias e Comercio Lda</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/COTARCO icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/resotelcss.css">
+</head>
+<body>
+    
+<!-- inicio seção de cabeçalho -->
+<div id="myPopup" class="popup ocultar">
+    <div class="popup-content">
+        <span class="close">
+            &times;
+        </span>
+        <h2 id="imgHeader"><img src="./popImg/samsung.png" alt=""></h2>
+        <h1 id="titlePopUp">Convidamos-te a conhecer a <br>Samsung Angola</h1>
+        <p>Descubra os últimos lançamentos <br>da Samsung e as nossas <br>campanhas limitadas</p>
+        <img id="logoPopUp" src="./popImg/COTARCO logotipo-02.png" alt="">
+        <h1 id="subTitleBanner">Representantes oficiais da Samsung <br>em Angola</h1>
+       
+            <a id="btnLink" href="https://cotarco.com/samsung/" target="_blank">Entrar</a>
+      
+        
+    </div>
+</div>
+
+<header class="scrollChange">
+
+    <a href="#" class="logo"><img src="images/cotarco_motors_logo.png" class="logotipo" alt=""></a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Serviços</a>
+        <a href="#marcas">Marcas</a>
+        <!-- <a href="#review">review</a> -->
+        <!-- <a href="#pricing">pricing</a> -->
+        <a href="#contact">Contacto</a>
+    </nav>
+
+</header>
+
+<!-- fim seção de cabeçalho -->
+
+<!-- inicio seção inicial -->
+
+<section class="hero text-center" aria-label="home" id="home">
+    <ul class="hero-slider" data-hero-slider>
+    <li class="slider-item active" data-hero-slider-item>
+        <div class="slider-bg">
+            <video class="img-cover" autoplay muted loop playsinline preload="auto">
+            <!-- Vídeo para mobile -->
+            <source src="videos/Curto-site-nissan-Mobile.mp4" type="video/mp4" media="(max-width: 768px)">
+            <!-- Vídeo para desktop -->
+            <source src="videos/Curto-site-nissan.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+            </video>
+        </div>
+        <span class="desc_title slider-reveal">Elegância e Exclusividade</span>
+        <h1 class="display-1 hero-title slider-reveal sizeTextMobile">
+            Onde o <span>Design</span> Fala Alto
+        </h1>
+    </li>
+    <li class="slider-item" data-hero-slider-item>
+        <div class="slider-bg">
+            <video class="img-cover" autoplay muted loop playsinline preload="none">
+            <!-- Vídeo para mobile -->
+            <source src="videos/Curto-video-lexus mobile.mp4" type="video/mp4" media="(max-width: 768px)">
+            <!-- Vídeo para desktop -->
+            <source src="videos/Curto-video-lexus.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+            </video>
+        </div>
+        <span class="desc_title slider-reveal">Qualidade Premium</span>
+        <h1 class="display-1 hero-title slider-reveal sizeTextMobile hero_title_no_break">
+           Sinta o Poder. Viva o <span>Luxu</span>
+        </h1>
+    </li>
+    </ul>
+
+    <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+      <ion-icon name="chevron-back"></ion-icon>
+    </button>
+
+    <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+      <ion-icon name="chevron-forward"></ion-icon>
+    </button>
+    <div class="dots" data-dots></div>
+
+    <!-- <a href="#" class="hero-btn has-after">
+      <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+      <span class="label-2 text-center span">Resotel</span>
+    </a> -->
+  </section>
+
+<!-- fim seção inicial -->
+
+<!-- inicio seção de recursos -->
+
+<section class="features fade-in-element logo hidden" id="features">
+
+    <h1 class="heading"> Nossos Serviços </h1>
+
+    <div class="box-container">
+
+        <div class="box box-services fade-in-element">
+            <div>
+                <img class="ico-services" src="images/icons/car_646660.svg" alt="" style="width: 113px;">
+                <h3>Vendas</h3>
+            </div>
+            
+        </div>
+
+        <div class="box box-services fade-in-element ocultar">
+            <div>
+                <img class="ico-services imgServices" src="images/truck.svg" alt="">
+                <h3>Distribuição de produtos</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="features fade-in-element" id="marcas">
+
+    <h1 class="heading"> Marcas </h1>
+
+    <div class="box-container box_container_marcas">
+
+        <div class="box-marcas fade-in-element logo hidden">
+            <div>
+                <img class="marcas-logo" src="images/marcas/lexus-logo-png_seeklogo-83673.png" alt="">
+       
+            </div>
+
+            <div>
+                
+            </div>
+        </div>
+
+        <div class="box-marcas fade-in-element logo hidden">
+            <div >
+                <img class="marcas-logo toyota" src="images/marcas/Toyota-logo-png-medium-size-vertical.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="box box-marcas fade-in-element" style="display: none;">
+            <div class="lacor-content">
+                <img class="marcas-logo" src="images/Lacor-Menaje-Logo-01.png" alt="">
+                <div class="content-marcas">
+                    <h3 class="align-left">Produtos de cozinha de gama alta</h3>
+                    <p>
+                        Trazemos para si todo tipo de utensílios de cozinha, garantindo qualidade e satisfação ao consumidor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box box-marcas fade-in-element" style="display: none;">
+            <div>
+                <img class="marcas-logo ibili" src="images/ibili logo.png" alt="">
+                <div class="content-marcas">
+                    <h3 class="align-left">Fornecemos para si produtos de cozinha da marca Ibili</h3>
+                    <p>Referencia especial para panelas, frigideiras, artigos de pastelaria, cafetaria e utensílios de cozinha, materiais de elevada resistência e durabilidade.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box box-marcas fade-in-element logo hidden ocultar">
+            <div>
+                <img class="cotarco-logo" src="images/cotarco motors.png" alt="">
+                <div class="content-marcas">
+                    <h3 class="align-left">Cotarco Motors</h3>
+                    <p>
+                        Veiculos de trabalho e de Luxo: Nissan Navara, Toyota Hilux, Toyota Land Cruiser, Cadillac Escalade, GMC Yukon, Mitsubishi, Lexus.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box box-marcas fade-in-element" style="display: none;">
+            <div>
+                <img class="arcoroc-logo" src="images/arcorocbaseline.png" alt="">
+                <div class="content-marcas">
+                    <h3 class="align-left">A revolução da vidraria para profissionais</h3>
+                    <p>
+                        Produtos endurecidos como: copos, jarras, chavinas e taças que garantem Resistência, Funcionalidade, Segurança, e Economia.
+                    </p>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="box box-marcas fade-in-element" style="display: none;">
+            <div>
+                <img class="socasa-logo" src="images/socasa.png" alt="">
+                <div class="content-marcas">
+                    <h3 class="align-left">Tudo que precisas para a sua casa </h3>
+                    <p>Comercializamos utensílios de restauração e hotelaria, eletrodomésticos das melhores marcas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- fim seção de recursos -->
+
+<!-- início da seção sobre -->
+
+<section class="about fade-in-element logo hidden ocultar" id="about">
+
+    
+
+    <div class="column logo hidden">
+
+        <div class="image logo hidden">
+            <img src="images/about.jpg" alt="">
+        </div>
+
+        <div class="content content2">
+            
+            <h3>Sobre nós</h3>
+            <p>Somos a empresa Cotarco Lda, fundada em 2006 com sede em Talatona, Avenida
+                Samora Machel, uma empresa Angolana que actua na área de Vendas e Distribuição
+                de Produtos, actualmente comercializamos produtos das marcas Toshiba, Samsung
+                e Lacor Equipamentos Hoteleiros para o mercado Angolano.
+            </p>
+
+            <p>
+                Temos como <strong>missão</strong> principal a prestação de um serviço eficiente na gestão de todos segmentos de actuação a nível local com foco na competitividade e satisfação dos nossos clientes, com sentido de responsabilidade social e ambiental. É com base nisso que nos apresentamos como uma empresa jovem, dinâmica e com forte motivação para tornar-se de forma sustentada numa empresa de referência na nossa actividade. 
+            </p>
+            <!-- <div class="buttons">
+                <a href="#" class="btn"> <i class="fab fa-apple"></i> app store </a>
+                <a href="#" class="btn"> <i class="fab fa-google-play"></i> google-play </a>
+            </div> -->
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fim da seção sobre -->
+
+<!-- newsletter  -->
+
+<div class="newsletter">
+
+    <h3>Todas as novidades da Cotarco Motors no seu email</h3>
+   
+    <form action="https://cotarco.us13.list-manage.com/subscribe/post?u=bc869e35968620f1685bec9c4&amp;id=7f9ed3d59c&amp;f_id=0016e3e2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <input type="email" name="EMAIL" placeholder="digite seu e-mail">
+        <input type="submit" name="subscribe" value="Inscrever">
+    </form>
+
+</div>
+
+<!-- inicio seção de revisão  -->
+
+<!-- <section class="review" id="review">
+
+    <h1 class="heading"> crítica das pessoas </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic1.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="comment">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic2.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="comment">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic3.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="comment">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- fim seção de revisão -->
+
+<!-- inicio seção de preços  -->
+<!-- 
+<section class="pricing" id="pricing">
+
+    <h1 class="heading"> Nossos Planos de Preços </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">básico</h3>
+            <div class="price">$10<span>/mensal</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 1000+ transferências </li>
+                <li> <i class="fas fa-check"></i> Sem taxas de transação </li>
+                <li> <i class="fas fa-times"></i> armazenamento ilimitado </li>
+                <li> <i class="fas fa-times"></i> 5 transferências </li>
+            </ul>
+            <a href="#" class="btn">Verificação de saída</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">padrão</h3>
+            <div class="price">$15<span>/mensal</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 10000+ transferências </li>
+                <li> <i class="fas fa-check"></i>Sem taxas de transação</li>
+                <li> <i class="fas fa-check"></i> armazenamento ilimitado </li>
+                <li> <i class="fas fa-times"></i> 50 transferências </li>
+            </ul>
+            <a href="#" class="btn">Verificação de saída</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">premium</h3>
+            <div class="price">$25<span>/mensal</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 100000+ transferências </li>
+                <li> <i class="fas fa-check"></i> Sem taxas de transação </li>
+                <li> <i class="fas fa-check"></i> armazenamento ilimitado </li>
+                <li> <i class="fas fa-check"></i> 500 transferências </li>
+            </ul>
+            <a href="#" class="btn">Verificação de saída</a>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- fim seção de preços -->
+
+<!-- inicio seção de contato  -->
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="images/capa-contact.png" alt="" style="border-radius: 18px;">
+    </div>
+
+    <form action="mailto:geral@cotarco.com" method="post">
+
+        <h1 class="heading">Contacte-Nos</h1>
+
+        <div class="inputBox">
+            <input type="text" required>
+            <label>Nome</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="email" required>
+            <label>Email</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="number" required>
+            <label>Telefone</label>
+        </div>
+
+        <div class="inputBox">
+            <textarea required name="" id="" cols="30" rows="10"></textarea>
+            <label>Mensagem</label>
+        </div>
+
+        <input type="submit" class="btn" value="Enviar mensagem">
+
+    </form>
+
+</section>
+
+<!-- fim seção de contato -->
+
+<!-- seção de rodapé inicio -->
+
+<div class="footer">
+    
+        <div class="box-container">
+            <div class="box">
+                <h3>Siga-nos</h3>
+                <div class="social">
+                    <a href="#" target="_blank"><i class="fab fa-facebook ico"></i></a>
+
+                    <a href="#" target="_blank"><i class="fab fa-instagram ico"></i></a>
+            
+                    <a href="#" target="_blank"><i class="fab fa-linkedin ico"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Informações de contatos</h3>
+                <div class="info">
+                    <i class="fas fa-phone"></i>
+                    <p> +244 923 170 012 <br> +244 928 157 538 </p>
+                </div>
+                <div class="info">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:geral@cotarco.com">geral@cotarco.com</a>
+                </div>
+                <a href="https://maps.app.goo.gl/Lk1actWJyvz5DRcM8" style="text-decoration: underline;" target="_blank">
+                <div class="info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p> Município de Talatona <br> Avenida Samora Machel </p>
+                </div>
+                </a>
+            </div>
+        </div>
+    <h1 class="credit"> &copy; 2025 Cotarco Motors, Todos direitos reservados.</h1>
+    </div>
+    <!-- seção de rodapé fim-->
+    <script src="js/scriptReso.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
