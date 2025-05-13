@@ -1060,6 +1060,21 @@ header label{
         font-size: 50%;
     }
 
+    .styleTextMobile{
+        width: 224px !important;
+        margin: 0 auto;
+    }
+
+    .hero_title_no_break{
+        display: inline !important;
+        width: 224px !important;
+        margin: 0 auto;
+    }
+
+    .desc_title{
+        font-size: 10px !important;
+    }
+
     .about .column .content .buttons a{
         width:100%;
         text-align: center;
@@ -1242,5 +1257,7 @@ section {
     margin-bottom: 113px;
 }
 
-
+.styleTextMobile{
+    width: 100%;
+}
 /*FIM POP SECTION*/
