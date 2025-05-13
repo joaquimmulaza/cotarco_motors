@@ -1065,6 +1065,10 @@ header label{
         margin: 0 auto;
     }
 
+    .newsletter h3{
+        font-size: 1.4rem;
+    }
+
     .hero_title_no_break{
         display: inline !important;
         width: 224px !important;
